@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anjin Metal</title>
+  <link href="./output.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  
+</head>
+<body class="bg-[url('./images/bg2.webp')]">
+  <!--Start Topbar-->
+    <section class=" bg-green-600 px-4">
+        <div class="mx-auto max-w-7xl">
+            <div class="flex gap-6 text-slate-200 mx-auto md:justify-end py-2 text-lg">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-comment"></i></a>
+            </div>
+        </div>
+    </section>
+  <!--End Topbar-->
+
+   <!--Start Heros section-->
+   <section class=" bg-[#e8d3b5] px-4">
+        <div class="mx-auto max-w-7xl md:flex justify-between">
+             <div class="flex justify-start items-center space-x-2">
+                <img src="./images/logo.png" class="h-14 w-auto sm:h-6" alt="">
+                <div class="py-6">
+                    <a href="#" class="md:text-3xl font-semibold">ANJIN Metal Industries</a>
+                    <p class="text-sm">Established in 2021</p>
+                </div>
+             </div>
+             <div class="flex md:gap-4 lg:gap-14 sm:gap-4 py-6">
+                <div class="flex justify-start items-center space-x-2">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                      </svg>
+                      <div class="flex flex-col">
+                        <span class="text-md font-semibold">Call Now</span>
+                        <span class="text-sm">01708481571</span>
+                      </div>
+                </div>
+                <div class="flex justify-start items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+                      </svg>
+                      <div class="flex flex-col">
+                        <span class="text-md font-semibold">Email Us</span>
+                        <span>it.hil@hamko.com.bd</span>
+                      </div>
+                </div>
+             </div>
+        </div>
+  </section>
+<!--End Heros section-->
+
+<!--Start Navbar section-->
+<nav class="bg-white border-gray-200 dark:bg-gray-900 border-b-2">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:ml-4">
+    <a href="/src" class="flex items-center space-x-2 rtl:space-x-reverse">
+      <span class="text-lg font-semibold">ANJIN</span>
+    </a>
+
+     <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </svg>
+        
+      </button>
+      <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+
+    
+  <div class="items-center hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
+    <ul class="flex flex-col font-medium  md:p-0  border border-gray-100 rounded-lg bg-gray-50 md:space-x-4  md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <li class="sm:py-4">
+        <a class="hover:bg-gray-100 block rounded-md xl:px-3 md:px-2 px-4 py-3 text-base font-medium" href="#" aria-current="page">Home</a>
+      </li>
+      <li class="sm:py-4">
+        <a class="hover:bg-gray-100 block rounded-md xl:px-3 md:px-2 py-3 px-4 text-base font-medium" href="#" aria-current="page">Application</a>
+      </li>
+      <li class="sm:py-4">
+        <a  href="#" class="hover:bg-gray-100 block rounded-md xl:px-3 md:px-2 px-4 py-3 text-base font-medium"" aria-current="page">Products</a>
+      </li>
+      <li class="sm:py-4">
+        <a href="#" aria-current="page" class="hover:bg-gray-100 block rounded-md px-4 xl:px-3 md:px-2 py-3 text-base font-medium"">Blog</a>
+      </li>
+      <li class="sm:py-4">
+        <a href="#" aria-current="page" class="hover:bg-gray-100 block rounded-md xl:px-3 px-4 md:px-2 py-3 text-base font-medium"">Gallery</a>
+      </li>
+      <li class="sm:py-4">
+        <a href="#" aria-current="page" class="hover:bg-gray-100 block rounded-md xl:px-3 px-4 md:px-2 py-3 text-base font-medium"">Contact</a>
+      </li>
+      <li class="sm:py-4">
+        <a href="#" aria-current="page" class="hover:bg-gray-100 block rounded-md xl:px-3 px-4 md:px-3 py-3 text-base font-medium"">Login</a>
+      </li>
+      
+    </ul>
+    <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex md:items-center font-medium justify-center text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white px-4 py-2"><span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" class="h-4 w-6">
+      <!-- Blue rectangle (Union) -->
+      <rect width="300" height="200" fill="#3C3B6E"></rect>
+
+      <!-- White stripes -->
+      <rect width="600" height="40" y="40" fill="#fff"></rect>
+      <rect width="600" height="40" y="120" fill="#fff"></rect>
+      <rect width="600" height="40" y="200" fill="#fff"></rect>
+      <rect width="600" height="40" y="280" fill="#fff"></rect>
+
+      <!-- Red stripes -->
+      <rect width="600" height="40" y="80" fill="#FF0000"></rect>
+      <rect width="600" height="40" y="160" fill="#FF0000"></rect>
+      <rect width="600" height="40" y="240" fill="#FF0000"></rect>
+
+      <!-- Stars (simplified representation) -->
+      <circle cx="30" cy="30" r="5" fill="#fff"></circle>
+      <circle cx="90" cy="30" r="5" fill="#fff"></circle>
+      <circle cx="150" cy="30" r="5" fill="#fff"></circle>
+      <circle cx="210" cy="30" r="5" fill="#fff"></circle>
+      <circle cx="270" cy="30" r="5" fill="#fff"></circle>
+      <circle cx="30" cy="70" r="5" fill="#fff"></circle>
+      <circle cx="90" cy="70" r="5" fill="#fff"></circle>
+      <circle cx="150" cy="70" r="5" fill="#fff"></circle>
+      <circle cx="210" cy="70" r="5" fill="#fff"></circle>
+      <circle cx="270" cy="70" r="5" fill="#fff"></circle>
+      <circle cx="30" cy="110" r="5" fill="#fff"></circle>
+      <circle cx="90" cy="110" r="5" fill="#fff"></circle>
+      <circle cx="150" cy="110" r="5" fill="#fff"></circle>
+      <circle cx="210" cy="110" r="5" fill="#fff"></circle>
+      <circle cx="270" cy="110" r="5" fill="#fff"></circle>
+      </svg>
+  </span>
+   English
+</button>
+  </div>
+  
+  </div>
+</nav>
+
+<!--End Navbar section-->
+
+<!--start Banner section-->
+  
+
+<div id="default-carousel" class="relative w-full bg-white" data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+       <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/banner1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/banner2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/banner3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 4 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/banner4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 5 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/banner5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+  </div>
+  <!-- Slider indicators -->
+  <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+
+<!--End Banner section-->
+
+
+<!--start Experience   section-->
+
+  <div class="mx-auto max-w-7xl bg-white shadow-lg">
+    <div class="md:grid grid-cols-5 px-4 py-8">
+      <div class="col-span-3 pr-10 ">
+        <h1 class="md:text-4xl text-2xl font-semibold text-[#475569] py-6">We are Working world With 3 Years</h1>
+        <p class="text-gray-500 font-light text-lg pb-10 text-justify">ANJIN Metal Industries was established in 2021. Its location is Town Noapara, Fakirhat, Bagerhat. The purpose of establishing the company is to meet the demand of domestic aluminum products and export them abroad. The Company will produce all kind of Aluminum Products. Such as Ingots ,Miracle metal in window frames, cooking utensils and embedded in electronics. For architects and engineers, aluminum is a material of choice when constructing buildings and bridges. Renewable energy relies on it for solar panels, wind turbines and cables. Aluminum keeps our food fresh and our medicine safe. And when we travel, we depend on it in our cars, aircraft and trains. For all these purpose ANJIN Metal Industries produce all kind of aluminum products.</p>
+        <button class="bg-blue-600 px-4 py-2 rounded-md text-white hover:bg-blue-700 font-semibold">View Details</button>
+      </div>
+      <div class="col-span-2 pt-6 md:pt-0">
+        <img src="./images/house.jpg" alt="hero" class="shadow-lg h-full">
+      </div>
+    </div>
+
+    <!--Featured products-->
+    <div class="pt-10 pb-6">
+      <div class="flex gap-4  justify-center items-center py-6">
+        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+        </svg>
+        </span>
+        <h1 class="md:text-4xl text-2xl font-extrabold"> Featured products</h1>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
+        <div class=" border-2 border-[#f2f2f2] rounded-lg shadow-xl">
+          <img src="./images/product1.jpg" alt="Product" class="w-full h-36">
+          <div class="py-6 px-4">
+            <a href="#"><h5 class="text-gray-900 font-bold text-2xl pt-7 pb-4">Ingot</h5></a>
+          <button class="flex gap-2 bg-blue-600 px-3 py-2 rounded-lg hover:bg-blue-700 text-white font-semibold">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+        </button>
+          </div>
+        </div>
+        <div class=" border-2 border-[#f2f2f2] rounded-lg shadow-xl">
+          <img src="./images/product2.jpg" alt="Product" class="w-full h-36">
+          <div class="py-6 px-4">
+            <a href="#"><h5 class="text-gray-900 font-bold text-2xl pt-7 pb-4">1060 Aluminum Coil</h5></a>
+          <button class="flex gap-2 bg-blue-600 px-3 py-2 rounded-lg hover:bg-blue-700 text-white font-semibold">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+        </button>
+          </div>
+        </div>
+        <div class=" border-2 border-[#f2f2f2] rounded-lg shadow-xl">
+          <img src="./images/product3.jpg" alt="Product" class="w-full h-36">
+          <div class="py-6 px-4">
+            <a href="#"><h5 class="text-gray-900 font-bold text-2xl pt-7 pb-4">1050 Aluminum Foil</h5></a>
+          <button class="flex gap-2 bg-blue-600 px-3 py-2 rounded-lg hover:bg-blue-700 text-white font-semibold">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+        </button>
+          </div>
+        </div>
+        <div class=" border-2 border-[#f2f2f2] rounded-lg shadow-xl">
+          <img src="./images/product4.jpg" alt="Product" class="w-full h-36">
+          <div class="py-6 px-4">
+            <a href="#"><h5 class="text-gray-900 font-bold text-2xl pt-7 pb-4">1050 Aluminum Sheet</h5></a>
+          <button class="flex gap-2 bg-blue-600 px-3 py-2 rounded-lg hover:bg-blue-700 text-white font-semibold">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+        </button>
+          </div>
+        </div>
+      </div>
+      <div class="text-center pt-5">
+        <button class="border-2 border-[#e5e7eb] px-4 py-2 font-semibold rounded-lg text-gray-900 hover:bg-gray-200 hover:text-blue-700">View Products</button>
+      </div>
+    </div>
+  </div>
+
+<!--End Experience   section-->
+
+
+<!--start Blog section-->
+<div class="mx-auto max-w-7xl bg-white mt-6 pb-16 pt-20 px-6">
+  <h1 class="text-4xl font-bold text-gray-900 text-center">Our Latest Blog Posts</h1>
+  <div class="lg:grid grid-cols-2 gap-6 pt-16 ">
+    
+
+    <div class="border p-8 shadow-xl rounded-lg mb-4">
+      <div class="flex justify-between">
+        <div class=""></div>
+        <span class="text-gray-500 text-sm font-medium">29 January 2024 14:46</span>
+      </div>
+      <h3 class="md:text-3xl font-bold tracking-tight py-4">How we process aluminum in the factory</h3>
+      <p class="font-light text-gray-500 text-md pb-5 text-justify">luminium Recycling Plant. Production of Aluminium Ingots from Aluminium Scrap. Aluminium Scrap Recycling Plant. Mixed Aluminium Scrap Recycling Project.&nbsp;Aluminium recycling is the process by which scrap aluminium can be reused in products after its initial production. The process involves simply re-melting the metal, which is far less expensive and energy intensive than creating new aluminium through the electrolysis of aluminium oxide (Al2O3), which must first be mined from bauxite ore and then refined using the Bayer process. Recycling scrap aluminium requires only 5% of the energy used to make new aluminium. For this reason, approximately 31% of all aluminium produced</p>
+      <div class="md:flex justify-between py-4">
+        <div class="flex justify-start items-center space-x-2">
+          <img class="w-8 h-8 rounded-full" src="https://ui-avatars.com/api/?name=John+Doe" alt="MJ">
+          <h6 class=" font-medium">Mehedi Jaman</h6>
+        </div>
+        <div class="pt-1 justify-end items-center flex">
+          <button class="flex gap-2 font-semibold">
+            View Details
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="border p-8 shadow-xl rounded-lg mb-4">
+      <div class="flex justify-between">
+        <div class=""></div>
+        <span class="text-gray-500 text-sm font-medium">29 January 2024 14:46</span>
+      </div>
+      <h3 class="md:text-3xl font-bold tracking-tight py-4">How we process aluminum in the factory</h3>
+      <p class="font-light text-gray-500 text-md pb-5 text-justify">luminium Recycling Plant. Production of Aluminium Ingots from Aluminium Scrap. Aluminium Scrap Recycling Plant. Mixed Aluminium Scrap Recycling Project.&nbsp;Aluminium recycling is the process by which scrap aluminium can be reused in products after its initial production. The process involves simply re-melting the metal, which is far less expensive and energy intensive than creating new aluminium through the electrolysis of aluminium oxide (Al2O3), which must first be mined from bauxite ore and then refined using the Bayer process. Recycling scrap aluminium requires only 5% of the energy used to make new aluminium. For this reason, approximately 31% of all aluminium produced</p>
+      <div class="md:flex justify-between py-4">
+        <div class="flex justify-start items-center space-x-2">
+          <img class="w-8 h-8 rounded-full" src="https://ui-avatars.com/api/?name=John+Doe" alt="MJ">
+          <h6 class=" font-medium">Mehedi Jaman</h6>
+        </div>
+        <div class="pt-1 justify-end items-center flex">
+          <button class="flex gap-2 font-semibold">
+            View Details
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="border p-8 shadow-xl rounded-lg mb-4">
+      <div class="flex justify-between">
+        <div class=""></div>
+        <span class="text-gray-500 text-sm font-medium">29 January 2024 14:46</span>
+      </div>
+      <h3 class="md:text-3xl font-bold tracking-tight py-4">How we process aluminum in the factory</h3>
+      <p class="font-light text-gray-500 text-md pb-5 text-justify">luminium Recycling Plant. Production of Aluminium Ingots from Aluminium Scrap. Aluminium Scrap Recycling Plant. Mixed Aluminium Scrap Recycling Project.&nbsp;Aluminium recycling is the process by which scrap aluminium can be reused in products after its initial production. The process involves simply re-melting the metal, which is far less expensive and energy intensive than creating new aluminium through the electrolysis of aluminium oxide (Al2O3), which must first be mined from bauxite ore and then refined using the Bayer process. Recycling scrap aluminium requires only 5% of the energy used to make new aluminium. For this reason, approximately 31% of all aluminium produced</p>
+      <div class="md:flex justify-between py-4">
+        <div class="flex justify-start items-center space-x-2">
+          <img class="w-8 h-8 rounded-full" src="https://ui-avatars.com/api/?name=John+Doe" alt="MJ">
+          <h6 class=" font-medium">Mehedi Jaman</h6>
+        </div>
+        <div class="pt-1 justify-end items-center flex">
+          <button class="flex gap-2 font-semibold">
+            View Details
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="border p-8 shadow-xl rounded-lg mb-4">
+      <div class="flex justify-between">
+        <div class=""></div>
+        <span class="text-gray-500 text-sm font-medium">29 January 2024 14:46</span>
+      </div>
+      <h3 class="md:text-3xl font-bold tracking-tight py-4">How we process aluminum in the factory</h3>
+      <p class="font-light text-gray-500 text-md pb-5 text-justify">luminium Recycling Plant. Production of Aluminium Ingots from Aluminium Scrap. Aluminium Scrap Recycling Plant. Mixed Aluminium Scrap Recycling Project.&nbsp;Aluminium recycling is the process by which scrap aluminium can be reused in products after its initial production. The process involves simply re-melting the metal, which is far less expensive and energy intensive than creating new aluminium through the electrolysis of aluminium oxide (Al2O3), which must first be mined from bauxite ore and then refined using the Bayer process. Recycling scrap aluminium requires only 5% of the energy used to make new aluminium. For this reason, approximately 31% of all aluminium produced</p>
+      <div class="md:flex justify-between py-4">
+        <div class="flex justify-start items-center space-x-2">
+          <img class="w-8 h-8 rounded-full" src="https://ui-avatars.com/api/?name=John+Doe" alt="MJ">
+          <h6 class=" font-medium">Mehedi Jaman</h6>
+        </div>
+        <div class="pt-1 justify-end items-center flex">
+          <button class="flex gap-2 font-semibold">
+            View Details
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+ 
+  </div>
+</div>
+<!--End Blog section-->
+
+
+<!--start Testimonials section-->
+<div class="mx-auto max-w-7xl mt-8 pt-20 pb-16 bg-white">
+  <h1 class="text-4xl font-bold text-gray-900 text-center">Testimonials</h1>
+  <div class="lg:grid grid-cols-2 px-6 py-6">
+    <div class="flex flex-col p-8 justify-center items-center text-center bg-gray-50 border-b border-gray-200 border-r text-gray-500">
+      <div class="flex items-center py-4">
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+      </div>
+      <p class="font-medium  mx-auto text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="flex justify-start items-center space-x-2">
+        <img class="w-10 h-10 rounded-full" src="https://ui-avatars.com/api/?name=John+Doe" alt="">
+        <div class="space-y-0.5 font-medium text-left py-5">
+          <a href="#" class="text-[#475569]">Mehedi Jaman</a>
+          <p class="text-sm font-light text-gray-500">CEO at gTechService</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col p-8 justify-center items-center text-center bg-gray-50 border-b border-gray-200 border-r text-gray-500">
+      <div class="flex items-center py-4">
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg class="w-6 h-6 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+      </div>
+      <p class="font-medium  mx-auto text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="flex justify-start items-center space-x-2">
+        <img class="w-10 h-10 rounded-full" src="https://ui-avatars.com/api/?name=John+Doe" alt="">
+        <div class="space-y-0.5 font-medium text-left py-5">
+          <a href="#" class="text-[#475569]">Mehedi Jaman</a>
+          <p class="text-sm font-light text-gray-500">CEO at gTechService</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center pt-5">
+    <button class="border-2 border-[#e5e7eb] px-4 py-2 font-semibold rounded-lg text-gray-900 hover:bg-gray-200 hover:text-blue-700">Show all Testimonials</button>
+  </div>
+</div>
+<!--End Testimonials section-->
+
+<!--start Footer section-->
+<div class=" mt-6" style="background-color: rgb(226, 82, 34); color: rgb(237, 229, 227);">
+  <div class="mx-auto max-w-7xl py-8 text-center">
+    <a href="#" class=" flex w-full items-center justify-center space-x-4">
+      <img src="./images/logo.png" alt="" class="h-8 w-auto">
+      <p class="text-white text-lg font-semibold">ANJIN Metal Industries</p>
+    </a>
+    <div class="flex gap-6 text-slate-200 mx-auto justify-center pt-10 pb-6 text-lg">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#"><i class="fa-solid fa-comment"></i></a>
+    </div>
+    <p class="text-slate-200">© 2023-2024. ANJIN Metal Industries. All Rights Reserved. Development & Maintenance by - <span class="text-gray-400 font-semibold">gTechService</span></p>
+  </div>
+</div>
+<!--End Footer section-->
+</body>
+</html>
